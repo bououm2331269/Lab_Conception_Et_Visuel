@@ -1,0 +1,18 @@
+{
+  "name": "lab_conception_et_visuel",
+  "version": "1.0.0",
+  "description": "Laboratoire_Conception",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass labConception.sass style.css"
+  },
+  "author": "Ouma",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.84.0"
+  }
+}
