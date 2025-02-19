@@ -11862,8 +11862,8 @@ p, label, select, input, button {
 }
 
 .image {
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   margin-right: 20px;
 }
 
@@ -11878,6 +11878,29 @@ p, label, select, input, button {
 .img-fluid {
   height: 400px;
   width: 400px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.card-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .card-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
